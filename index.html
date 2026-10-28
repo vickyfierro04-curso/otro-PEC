@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>PORTAFOLIO DE PRÁCTICAS - TADEO ORDAZ</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #101820;
+            color: white;
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            background: linear-gradient(135deg, #e62429, #8b0000);
+            text-align: center;
+            padding: 35px 20px;
+            border-bottom: 5px solid white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+
+        /* CONTENEDOR */
+
+        .contenedor {
+            width: 90%;
+            max-width: 1100px;
+            margin: 35px auto;
+        }
+
+
+        /* TITULO */
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .titulo h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .titulo p {
+            color: #cccccc;
+            font-size: 17px;
+        }
+
+
+        /* PRACTICAS */
+
+        .practicas {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+
+        /* TARJETAS */
+
+        .tarjeta {
+            background-color: #1f2937;
+            border: 2px solid #374151;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-7px);
+            border-color: #e62429;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+
+        /* NUMERO */
+
+        .numero {
+            display: inline-block;
+            background-color: #e62429;
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+
+        /* TITULO DE PRACTICA */
+
+        .tarjeta h3 {
+            font-size: 23px;
+            margin: 10px 0;
+        }
+
+
+        /* DESCRIPCION */
+
+        .tarjeta p {
+            color: #d1d5db;
+            min-height: 45px;
+        }
+
+
+        /* BOTON */
+
+        .boton {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #e62429;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #ff4b4f;
+            transform: scale(1.05);
+        }
+
+
+        /* PIE DE PAGINA */
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #080c10;
+            color: #aaaaaa;
+        }
+
+
+        /* ADAPTACION A CELULAR */
+
+        @media (max-width: 700px) {
+
+            .practicas {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================= -->
+    <!-- ENCABEZADO -->
+    <!-- ================================= -->
+
+    <header>
+
+        <h1>
+            PORTAFOLIO DE PRÁCTICAS
+        </h1>
+
+        <p>
+            TADEO ORDAZ
+        </p>
+
+    </header>
+
+
+    <p>Maestraaaa, l averdad hice este index porque tengo muchos archivo dentro de la carpeta y es más fácil revisar así</p>
+
+
+    <!-- ================================= -->
+    <!-- CONTENIDO -->
+    <!-- ================================= -->
+
+    <div class="contenedor">
+
+
+        <div class="titulo">
+
+            <h2>
+                📚 DIRECTORIO DE PRÁCTICAS
+            </h2>
+
+            <p>
+                Selecciona una práctica para visualizar el trabajo realizado.
+            </p>
+
+        </div>
+
+
+        <div class="practicas">
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 3 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 3
+                </div>
+
+                <h3>
+                    Práctica 3 
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. FORMATOS Y TAMAÑOS
+                </p>
+
+                <a href="practica3.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 4 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 4
+                </div>
+
+                <h3>
+                    Práctica 4
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. LINEAS
+                </p>
+
+                <a href="practica4.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 5 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 5
+                </div>
+
+                <h3>
+                    Práctica 5
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. COLORES
+                </p>
+
+                <a href="practica5.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 6 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 6
+                </div>
+
+                <h3>
+                    Práctica 6
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. TABLA "COMPLEJA"
+                </p>
+
+                <a href="practica6.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 7 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 7
+                </div>
+
+                <h3>
+                    Práctica 7
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. IMAGEN DE FONDO
+                </p>
+
+                <a href="practica7.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 10 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 10
+                </div>
+
+                <h3>
+                    Práctica 10
+                </h3>
+
+                <p>
+                    Ejercicio de HTML. ANCLAS
+                </p>
+
+                <a href="practica10.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 11 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 11
+                </div>
+
+                <h3>
+                    Equipos de Fútbol
+                </h3>
+
+                <p>
+                    Equipos, escudos e información utilizando tablas e imágenes.
+                </p>
+
+                <a href="practica11.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 12 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 12
+                </div>
+
+                <h3>
+                    Videos en Tablas
+                </h3>
+
+                <p>
+                    Videos de YouTube organizados mediante tablas.
+                </p>
+
+                <a href="practica12.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 13 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 13
+                </div>
+
+                <h3>
+                    Mapa de Imágenes
+                </h3>
+
+                <p>
+                    Mapa interactivo de personajes de X-Men.
+                </p>
+
+                <a href="practica13.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 14 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 14
+                </div>
+
+                <h3>
+                    Frames
+                </h3>
+
+                <p>
+                    Página dividida en marcos con menú y contenido.
+                </p>
+
+                <a href="practica14.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+
+            <!-- ============================== -->
+            <!-- PRACTICA 15 -->
+            <!-- ============================== -->
+
+            <div class="tarjeta">
+
+                <div class="numero">
+                    PRÁCTICA 15
+                </div>
+
+                <h3>
+                    Práctica 15
+                </h3>
+
+                <p>
+                    Ejercicio de HTML.
+                </p>
+
+                <a href="practica15.html" class="boton">
+                    VER PRÁCTICA
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================= -->
+    <!-- PIE DE PAGINA -->
+    <!-- ================================= -->
+
+    <footer>
+
+        <p>
+            CETIS 87 | Programación
+        </p>
+
+        <p>
+            Tadeo Ordaz
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
